@@ -1,0 +1,32 @@
+/* Estilo para el contenedor principal del todo item */
+.toDo-item-container {
+    display: flex;
+    align-items: center;
+    /* Centra el texto y el boton verticalmente */
+    justify-content: space-between;
+    /* Separa el texto y la papelera */
+    padding: 10px;
+    border-bottom: 2px solid #ccc;
+    /* Línea para separar tareas */
+}
+
+/* Estilo para el titulo de la tarea */
+.toDo-item-title {
+    flex-grow: 1; /* El título ocupará el espacio disponible */
+  margin-right: 80px;
+}
+
+/* Los estilos para la papelera */
+.toDo-item-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-left: 0px;
+    /* Tamaño del emoji */
+    
+}
+
+/* .toDo-item-button:hover {
+    color: red;
+} */
